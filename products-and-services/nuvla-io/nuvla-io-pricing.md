@@ -9,18 +9,16 @@ header: Simple Subscription Pricing
 subheader: The Nuvla.io pricing is simple and predictable. Start your a 14-day free trial now.
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
 banner-icon: fad fa-shopping-cart
-permalink: /products-and-services/nuvla-io/pricing
-redirect_from:
-- /pricing
+permalink: /pricing
 ---
 
 #### The Nuvla.io pricing is simple and predictable. You start with a 14-day free trial, during which you benefit from our Bronze Support service and a 100% discount on all resources in Nuvla.io. After that, we automatically adapt your monthly discount to your usage of the platform to ensure you have the most cost effective pricing. We do this by continuously monitoring your consumption. The two main resources we meter are:
 
- * **[NuvlaBox](/products-and-services/nuvlabox/overview)**: the maximum number of active NuvlaBox during the month;
+ * **[NuvlaBox](https://sixsq.com/products-and-services/nuvlabox/overview)**: the maximum number of active NuvlaBox during the month;
  * **App Deployments**: the maximum number of app deployments running on container orchestration engines (Kubernetes or Docker Swarm). In other words, we don't meter the app deployments running in NuvlaBoxes. 
 {: class="ml-20 mt-10 mb-10" style="list-style: disc; font-size: 16px;"}
 
-#### Each month, we take the maximum of these values and apply the best discount, giving you an optimal price. Below you will find an overview of the available discounts. You can also download a [PDF version of the pricing](/products-and-services/nuvla-io/pricing/Nuvla-io-pricing-2020-v1.1.pdf).
+#### Each month, we take the maximum of these values and apply the best discount, giving you an optimal price. Below you will find an overview of the available discounts. You can also download a [PDF version of the pricing](/pricing/Nuvla-io-pricing-2020-v1.1.pdf).
 
 #### The way we meter NuvlaBoxes and App Deployments means that you are free to play at the edge, in the cloud or both together (our preferred way).
 
@@ -40,7 +38,7 @@ redirect_from:
 #### Each user can configure a personal VPN client providing them secure access to their NuvlaBoxes and applications for free.
 {: class="mb-10" }
 
-#### **NuvlaBox** means: an edge device running the [NuvlaBox software](/products-and-services/nuvlabox/overview). 
+#### **NuvlaBox** means: an edge device running the [NuvlaBox software](https://sixsq.com/products-and-services/nuvlabox/overview). 
 {: class="mb-10" }
 
 #### **App Deployments** means: app deployments running on an _infrastructure service_ registered with Nuvla.io, typically Kubernetes or Docker Swarm running in public or private clouds (a.k.a. not a NuvlaBox). 

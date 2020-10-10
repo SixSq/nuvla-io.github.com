@@ -11,10 +11,10 @@ subheader: Market your edge and edge-to-cloud applications with the Nuvla.io Mar
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
 image: /img/page-product/products/vendor-journey.png
 banner-icon: fad fa-store
-permalink: /products-and-services/nuvla-io/marketplace
+permalink: /marketplace
 ---
 
-### We enable simple monetisation of your applications with our Stripe integration
+### Monetise of your applications Nuvla.io, with our Stripe integration
 {: class="text-center pb-40"}
 
 
@@ -30,7 +30,7 @@ permalink: /products-and-services/nuvla-io/marketplace
 ## App Vendor Journey
 {: class="text-center pt-50"}
 
-### Becoming an app vendor on [Nuvla.io](/products-and-services/nuvla-io/overview) is simple and straightforward.
+### Becoming an app vendor on Nuvla.io is simple and straightforward.
 {: class="text-center pb-20"}
 
 ![vendor journey](/img/page-product/products/vendor-journey.png)

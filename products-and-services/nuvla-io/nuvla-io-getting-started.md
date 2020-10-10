@@ -8,15 +8,15 @@ title: Enable your edge with our management platform as a service
 header: Getting Started
 subheader: Nuvla.io is an open system. Discover how it works and become an expert.
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
-banner-icon: fad fa-cogs
-permalink: /products-and-services/nuvla-io/tech-spec
+banner-icon: fad fa-user-visor
+permalink: /getting-started
 ---
 
 ## Here's the full picture
 {: class="text-center"}
 
 ![Nuvla.io Detailed](/img/content/diagrams/nuvla-io-detailed.png "Nuvla.io Detailed")
-{: class="text-center pt-40 pb-50 highlight-image"}
+{: class="text-center pt-0 pb-50 highlight-image"}
 
 ## Service Architecture
 {: class="text-center pt-20 pb-30"}
