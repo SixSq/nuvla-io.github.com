@@ -1,0 +1,13 @@
+					<div class="col-md-4 col-sm-6 col-xs-12 item icon animated {{ post.cssclass }} pb-10">
+            {% if post.image %}
+              <img src="{{ post.image }}" alt="{{ post.title }}" style="max-width: 60%; width: auto;">
+            {% endif %}
+            {% if post.icon %}
+              <div class="icon-title">
+                <i class="fa {{ post.icon }}"></i>
+              </div>
+            {% endif %}
+            <h3 class="mt-20 mb-20 text-center fw600">{{ post.title }}</h3>
+            {% assign product-name = page.product-name %}
+            {{ post.content | replace: 'product-name', product-name }}
+					</div>

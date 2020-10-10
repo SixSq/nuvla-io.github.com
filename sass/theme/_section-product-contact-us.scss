@@ -1,0 +1,22 @@
+.section-contact {
+  a {
+    color: $color-primary-light;
+  }
+	.image-contact-us {
+		background: url('../img/page-product/section-contact/image-section-contact-product.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		.content-text {
+			p{
+				font-size: 18px;
+			}
+		}
+		img {
+      opacity: 0.5;
+    }
+	}
+}

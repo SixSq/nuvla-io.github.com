@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+		<!-- Start what do you get? -->	
+		<section class="mt-20 section-is-it-for">
+			<div class="container">
+				<div class="row justify-content-center pb-10 pt-50">
+					<div class="col-md-12 section-title text-center">
+							<h2 class="pb-10 fw700">Discover the main benefits of our programme.</h2>
+              {{ page.content | markdownify }}
+					</div>
+				</div>
+				<div class="row justify-content-center icon-is-it-for pb-50 pt-10">
+          {% for post in site.aiot-partner-program %}
+            {% if post.class == 'benefit' %}
+              {% include highlighted-with-image-item-no-truncation.html %}
+            {% endif %}
+          {% endfor %}
+        </div>
+			</div>
+		</section>
+		<!-- Stop what do you get? -->
+    {% include whats-next-partner-prog.html %}
+		<!-- End Section News -->	
+      {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>

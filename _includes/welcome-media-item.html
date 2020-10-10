@@ -1,0 +1,34 @@
+<div class="item" style="display: flex; flex-direction: column;">
+  <div class="image-content"">
+    <img style="width: 100%;" src="{{ post.image }}" alt="news-homepage">
+	</div>
+	<div class="mt-20">
+    {% capture _title %}
+			{% if post.short-title %}
+				{{ post.short-title }}
+			{% else %}
+				{{ post.title }}
+			{% endif %}
+		{% endcapture %}
+    <div style="min-height: 175px">
+    {% if include.action-all == "Blogs" %}
+      <a href="{{ post.link }}">
+        <h3 class="mb-10">{{ _title }}</h3>
+      </a>
+    {% else %}
+      <a href="{{ post.url }}">
+        <h3 class="mb-10">{{ _title }}</h3>
+      </a>
+    {% endif %}
+  		<p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+  		<p class="date">{{ post.date | date: "%d %B %Y" }}</p>
+    </div>
+	</div>
+	<div class="section-news-button ml-20" style="align-self: flex-end;">
+  {% if include.action-all == "Blogs" %}
+    <a class="btn-sixsq color-2" href="{{ post.link }}">Read blog</a>
+  {% else %}
+    <a class="btn-sixsq color-2" href="{{ post.url }}">Read news</a>
+  {% endif %}
+	</div>
+</div>

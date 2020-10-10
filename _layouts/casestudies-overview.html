@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+		<section class="mt-20 section-is-it-for bg-white">
+			<div class="container">
+				<div class="row justify-content-center pt-20 pb-50">
+					<div class="col-md-12 section-title text-center">
+						<h2 class="pb-20 fw700">Discover how <a href="/products-and-services/nuvla-io/overview">Nuvla.io</a> enables {{ page.product-name }}, at the edge as a service</h2>
+            {{ page.content | markdownify }}
+					</div>
+				</div>
+			</div>
+		</section>
+    {% if page.video-id %}
+      {% include video.html video-id='l8XD8bHceOY' title='Here\'s the challenge' %}
+    {% endif %}
+		<!-- Start what do you get? -->	
+		<section class="mt-20 section-is-it-for">
+			<div class="container">
+				<div class="row justify-content-center pb-50 pt-50">
+					<div class="col-md-12 section-title text-center">
+							<h2 class="fw700">Top benefits for this customer</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center icon-is-it-for pb-50">
+          {% for post in site.casestudies %}
+            {% if post.product == page.product %}
+              {% if post.class == 'feature' %}
+                {% include highlighted-with-image-item-no-truncation.html %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+			</div>
+		</section>
+		<!-- Stop what do you get? -->
+    {% include whats-next.html %}
+    {% include primary-footer.html %}
+  </main>
+  {% include secondary-footer.html %}
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+    {{ page.content }}
+		<!-- Start what do you get? -->	
+		<section class="section-is-it-for">
+			<div class="container">
+				<div class="row justify-content-center icon-is-it-for pb-50 pt-50">
+					<div class="col-md-3 col-sm-6 col-xs-12 item icon animated text-center">
+            <div class="icon-title">
+              <i class="fas fa-newspaper"></i>
+            </div>
+            <h3 class="mt-20 text-center fw600">News</h3>
+						<p class="mt-10 text-center">Latest from SixSq.</p>
+            <a class="btn-sixsq mt-20 color-3 text-center" href="/media/news">Read</a>
+						</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 item icon animated text-center">
+            <div class="icon-title">
+              <i class="fas fa-video"></i>
+            </div>
+            <h3 class="mt-20 text-center fw600">Videos</h3>
+						<p class="mt-10 text-center">Sit back and watch.</p>
+            <a class="btn-sixsq mt-20 color-3 text-center" href="/media/videos">Watch</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 item icon animated text-center">
+            <div class="icon-title">
+              <i class="fas fa-rss"></i>
+            </div>
+            <h3 class="mt-20 text-center fw600">Blog</h3>
+						<p class="mt-10 text-center">Read our latest thoughts.</p>
+            <a class="btn-sixsq mt-20 color-3 text-center" href="https://media.sixsq.com/blog">Read</a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 item icon animated text-center">
+            <div class="icon-title">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3 class="mt-20 text-center fw600">Documentation</h3>
+						<p class="mt-10 text-center">All the technical details.</p>
+            <a class="btn-sixsq mt-20 color-3 text-center" href="https://docs.nuvla.io">Learn</a>
+					</div>
+        </div>
+			</div>
+		</section>
+		<!-- Stop what do you get? -->
+    {% include whats-next.html %}
+		<!-- End Section News -->	
+      {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+
+		<section class="section-about section-is-it-for">
+			<div class="container">
+        <h2 class="text-center pt-50">Meet the team!</h2>
+				<div class="row justify-content-center icon-is-it-for pb-20 pt-20">
+		      {% for post in site.staff %}
+						{% include highlighted-staff.html %}
+		      {% endfor %}
+				</div>
+			</div>
+		</section>
+
+		<section class="section-about section-is-it-for">
+			<div class="container pt-10 pb-50">
+        <h2 class="text-center">Where we come from</h2>
+        {{ page.content | markdownify }}
+			</div>
+		</section>
+
+
+		<!-- End Who is it for? -->	
+    {% include whats-next.html %}
+		<!-- End Section News -->	
+      {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>

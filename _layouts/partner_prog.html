@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+		<section class="section-article mb-20 mt-20">
+			<div class="container">
+        {{ page.content | markdownify }}
+			</div>
+    </section>
+		<section class="bg-white mt-20 section-do-you-get animated">
+			<div class="container">
+				<div class="row justify-content-center pt-50">
+					<div class="col-md-12 section-title text-center">
+						<h2 class="pb-10 fw700">What are the benefits of the programme?</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center pb-50 pt-50">
+					<div class="product-page-carousel parent-container">
+            {% for post in site.aiot-partner-program %}
+              {% if post.class == 'benefit' %}
+                {% if post.main-benefit == true %}
+                  {% include carousel-with-icon-item.html %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+					</div>
+    			<div class="col-md-12 text-center">
+    			  <a class="btn-sixsq color-dark" href="/partner/benefits">Discover all benefits</a>
+          </div>
+				</div>
+			</div>
+		</section>
+    {% include whats-next-partner-prog.html %}
+    {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>

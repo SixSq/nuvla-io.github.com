@@ -1,0 +1,48 @@
+.section-intro-product {
+  @extend .pt-50;  
+  @extend .pb-50;  
+  h2 {
+    @extend .pb-10;
+    @extend .fw700;
+  }	
+  img {
+    max-width: 100%;
+  }
+	.section-title {
+		float: left;
+		span{
+			display: inline-block;
+			
+		}
+	}
+  .hardware-provider {
+    img {
+      width: 30%;
+      @include mobile {
+        width: 70%;
+      }
+    }
+  }
+	.products-view {
+		@media (max-width: 767px) {
+			margin-bottom: 0;
+		}
+		figure {
+			@media (max-width: 767px) {
+					margin-bottom: 100px;
+				}
+			img {
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+		}
+		
+	}
+}
+.section-full {
+	@media (max-width: 767px) {
+			padding-bottom: 0;
+		}
+}

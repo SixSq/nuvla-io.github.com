@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+    {% include {{ page.product }}-sub-menu.html %}
+
+		<section class="section-intro-product section-is-it-for bg-white">
+			<div class="container">
+        {{ page.content | markdownify }}
+			</div>
+		</section>
+
+		<!-- Start what do you get? -->	
+	  <section class="section-full bg-grey-e4 section-news section-partners section-is-it-for relative" style="height: auto;">
+			<div class="container text-center">
+				<h2 class="pb-20 fw700">Key Features.</h2>
+				<div class="row icon-is-it-for ">
+        {% for post in site.products-and-services %}
+          {% if page.product == post.product or page.uberproduct == post.product %}
+            {% if post.class == 'feature' %}
+              {% if post.main-feature == true %}
+                {% include highlighted-with-image-item-no-truncation.html %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      	</div>
+			</div>
+			<div class="section-title text-center pt-40">
+      	<a class="btn-sixsq all text-center" href="/products-and-services/{{ page.product }}/features">Discover all features</a>
+    	</div>
+		</section>
+
+		<!-- Stop what do you get? -->
+    {% include video.html video-id='BHzbEDzyfnQ' title='Here have a look' bg='bg-grey-f9' %}
+    {% include whats-next.html %}
+		<!-- End Section News -->	
+      {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>

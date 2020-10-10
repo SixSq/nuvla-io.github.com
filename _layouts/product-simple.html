@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+  	<main>
+      {% include {{ page.product }}-banner.html %}
+      <section class="section-intro-product section-intro-product section-is-it-for bg-white">
+      	<div class="container">
+          {{ page.content | markdownify }}
+        </div>
+      </section>
+      {% include video.html video-id='s0NQjTgmaU0' title='Become an Expert' subtitle='Created by this Cristóvão (Cris) Cordeiro, R&D Project Manager at SixSq, this Youtube channel gives you all the detailed information needed to master Nuvla.io and created amazing edge-to-cloud solutions.' %}
+      {% include whats-next.html %}
+  		<!-- End Section News -->	
+      {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>
