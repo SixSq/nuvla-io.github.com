@@ -23,4 +23,4 @@ The Nuvla.io security architecture is simple yet comprehensive. It includes the 
 * <i class="fad fa-check"></i> **Device system security**: ensuring the operating system is secure, as well as the data it hosts
 {: style="list-style-type: none;"}
 
-Don't leave security to chance. With Nuvla.io, security is built in by design. We partner with [security experts](/about/partners), providing you with world class security, even for the most challenging applications in heavily regulated industries.
+Don't leave security to chance. With Nuvla.io, security is built in by design. We partner with [security experts](https://sixsq.com/about/partners), providing you with world class security, even for the most challenging applications in heavily regulated industries.
