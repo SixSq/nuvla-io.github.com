@@ -1,25 +1,22 @@
 ---
 layout: article
-title: SixSq Approach to Privacy
-subtitle: This notice describes a set of data privacy rules that SixSq commits to in the context of the Nuvla.io service operations, in compliance GDPR and Swiss data privacy law.
-summary: This privacy license applies to Nuvla.io and all SixSq websites and services.
-class: aai-privacy
-category: legal
-product: terms
-product-name: Terms
-icon: fa-user-secret
+title: Approach to Privacy
+subtitle: This privacy license applies to Nuvla.io service operations, in compliance with GDPR and Swiss data privacy law.
+header: Approach to Privacy
+subheader: This privacy license applies to Nuvla.io service operations, in compliance with GDPR and Swiss data privacy law.
+product: nuvla-io
+icon: fad fa-user-secret
+banner-icon: fad fa-user-secret
 permalink: /terms/privacy
 redirect_from:
-  - /legal/aai_privacy.html
   - /terms/aai-privacy
 applicable_from: 28/04/2020
 last_update: 28/04/2020
 ---
 
-[History](https://github.com/SixSq/sixsq.github.com/commits/master/_terms/legal-aai-privacy-policy.md)
+[History](https://github.com/SixSq/nuvla-io.github.com/commits/master/_terms/legal-aai-privacy-policy.md)
 
-1\. Who are we?
----  
+**1\. Who are we?**
 
 The Software, Products and Services made available to you are provided by SixSq Sàrl (SixSq) located at: {{ site.address }}. 
 
@@ -47,8 +44,7 @@ SixSq Info: info@sixsq.com
 [SixSq](https://sixsq.com "SixSq's Homepage")
 
 
-2\. What personal data do we collect from you?
----  
+**2\. What personal data do we collect from you?**  
 
 During the process of registration for our services and products, we may collect personal and unique information which can be used to identify you, such as your:
 
@@ -80,8 +76,7 @@ SixSq uses Stripe and Intercom to provide a better service to its users. None of
 The processing of personal data is [governed by the General Data Protection Regulation (EU) 2016/679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32016R0679) (GDPR).
 
 
-3\. How will we use your personal data?
----  
+**3\. How will we use your personal data?**
 
 The personal data we collect from you is mostly used to identify you as a user/customer of our products and services (authentication and authorisation). Your personal data (for example email) might also be used to communicate important matters related to your usage and general status (like billing, service maintenances, etc.) of the products and services you've registered for.
 
@@ -130,13 +125,11 @@ Where do we keep your personal data?
 All personal data is kept within EU and Swiss data centres and might be moved between data centres residing in other countries also within the EU and Switzerland.
 
 
-4\. Applicability 
----
+**4\. Applicability**
 
-Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to SixSq's websites and web services like [sixsq.com](https://sixsq.com), [Nuvla.io](https://nuvla.io) and any other public pages with static content, owned by SixSq and related to our services and products. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
+Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to Nuvla.io](https://nuvla.io) and related websites. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
 
-5\. Right to forget
----
+**5\. Right to forget**
 
 If you want us to delete all the private information we have collected from you, please send us an email at: [support@sixsq.com](mailto:support@sixsq.com?subject=Delete my personal information).  All you private information will be deleted from our services within 7 days.
 

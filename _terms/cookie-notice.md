@@ -1,21 +1,21 @@
 ---
 layout: article
-title: SixSq Websites Cookie Notice
-subtitle: This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on our websites to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
-class: cookie-notice
+title: Cookie Notice
+header: Cookie Notice
+subheader: This Cookie Notice describes how we use cookies in Nuvla.io.
+summary: This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on Nuvla.io to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
 cssclass: terms
-category: legal
-product: terms
-product-name: Terms
-icon: fas fa-cookie-bite
+product: nuvla-io
+icon: fad fa-cookie-bite
+banner-icon: fad fa-cookie-bite
 permalink: /terms/cookie-notice
-applicable_from: 28/04/2020
-last_update: 28/04/2020
+applicable_from: 14/10/2020
+last_update: 14/10/2020
 ---
 
-[History](https://github.com/SixSq/sixsq.github.com/commits/master/_terms/cookie-notice.md)
+[History](https://github.com/SixSq/nuvla-io.github.com/commits/master/_terms/cookie-notice.md)
 
-1. This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on our websites to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
+1. This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on the Nuvla.io website to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
 
 2. A cookie is a small file of letters and numbers that we store on your browser or the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. Cookies allow our websites to recognise your device.
 
