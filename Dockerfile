@@ -10,5 +10,4 @@ LABEL git.commit.id=${GIT_COMMIT_ID}
 LABEL git.dirty=${GIT_DIRTY}
 LABEL git.build.time=${GIT_BUILD_TIME}
 
-ADD _site /usr/share/nginx/html                    
-ADD nginx.conf /etc/nginx/
+ADD _site /usr/share/nginx/html
