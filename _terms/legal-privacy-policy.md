@@ -14,7 +14,7 @@ applicable_from: 28/04/2020
 last_update: 28/04/2020
 ---
 
-[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/legal-aai-privacy-policy.md)
+[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/legal-privacy-policy.md)
 
 **1\. Who are we?**
 
