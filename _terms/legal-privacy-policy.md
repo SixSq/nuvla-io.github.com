@@ -127,7 +127,7 @@ All personal data is kept within EU and Swiss data centres and might be moved be
 
 **4\. Applicability**
 
-Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to Nuvla.io](https://nuvla.io) and related websites. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
+Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to [Nuvla.io](https://nuvla.io) and related websites. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
 
 **5\. Right to forget**
 

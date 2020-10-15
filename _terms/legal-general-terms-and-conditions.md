@@ -85,17 +85,16 @@ The User undertakes not to create or use, under his own identity or that of a th
 
 **6\.3\.	Account suspension and termination**
 
-SixSq reserves the right to
+SixSq reserves the right to:
 
 - verify the information provided by any means,
-- suspend or terminate an Account and access to the Platform if the User does not comply with these ToS, or if any 
+- suspend or terminate an Account and access to the Platform if the User does not comply with these ToS, or if any information provided during the registration process, or thereafter, proves to be inaccurate, fraudulent, obsolete or incomplete, or otherwise violates these ToS or the rights of third parties.
 
-information provided during the registration process, or thereafter, proves to be inaccurate, fraudulent, obsolete or incomplete, or otherwise violates these ToS or the rights of third parties.
 You may terminate your Account at any time without charge and without cause. To do so, simply notify SixSq's support department by email at support@sixsq.com.
 
 **7\.	Use of the Platform**
 
-Platform Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying its Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows to share different resources with other Users. The Purchaser is then responsible for the purchases made by the User members of the Group, when acting as a member of the Group. 
+Platform Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying its Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows the sharing of different resources with other Users. The Purchaser is then responsible for the purchases made by the User members of the Group, when acting as a member of the Group. 
 
 **8\.	Financial Conditions**
 
@@ -133,15 +132,15 @@ The User may terminate his account at any time by sending an email to support@si
 
 **13\.	Personal Data**
 
-As part of your use of the Platform, [Company operating the Platform] may collect and process some of your personal data in order to enable [Company operating the Platform] to ensure the use of the Platform by Users. The [Company that operates the platform] may transfer them to third parties or partners, in particular for canvassing purposes, which the User declares to accept.
+As part of your use of the Platform, we may collect and process some of your personal data in order to enable SixSq to ensure the use of the Platform by Users. SixSq may transfer them to third parties or partners, in particular for canvassing purposes, which the User declares to accept.
 
-By using the Platform and registering as a User, you acknowledge and agree to the processing of your personal data by [Company operating the Platform] in accordance with applicable law.
+By using the Platform and registering as a User, you acknowledge and agree to the processing of your personal data by SixSq in accordance with applicable law.
 
-Any user of the Platform has, in accordance with the national and European regulations in force, a permanent right of access, modification, rectification, opposition to portability and limitation of processing with regard to the information concerning him/her. The Platform user may exercise this right by sending an e-mail to [Indicate e-mail] or a letter addressed to the company [contact details of the company operating the Platform], stating his or her full details (first and last name, address, telephone number, e-mail address and specifying the subject of the e-mail or letter).
+Any user of the Platform has, in accordance with the national and European regulations in force, a permanent right of access, modification, rectification, opposition to portability and limitation of processing with regard to the information concerning him/her. The Platform user may exercise this right by sending an e-mail to support@sixsq.com or a letter addressed to the company at SixSq, 267 Route de Meyrin, 1217 Meyrin, Geneva, Switzerland, stating his or her full details (first and last name, address, telephone number, e-mail address and specifying the subject of the e-mail or letter).
 
 **14\.	Intellectual Property**
 
-Subject to the content provided by its Users, the content of the [https://nuvla.io](https://nuvla.io) website is the property of SixSq and is protected by French and international intellectual property laws.
+Subject to the content provided by its Users, the content of the [https://nuvla.io](https://nuvla.io) website is the property of SixSq and is protected by Swiss and international intellectual property laws.
 Any total or partial reproduction of this content is strictly prohibited and may constitute an infringement of copyright.
 
 **15\.	Partial nullity**
@@ -151,7 +150,7 @@ If one or more stipulations herein are held to be invalid or declared as such pu
 **16\.	Applicable Law**
 
 The present ToS and the operations resulting therefrom are governed by Swiss law and the Geneva Court.
-They are written in French. In the event that they are translated into one or more languages, only the French text shall be authentic in the event of claims.
+They are written in English. In the event that they are translated into one or more languages, only the English text shall be authentic in the event of claims.
 
 **17\.	Identification - Contact**
 
