@@ -17,7 +17,7 @@ redirect_from:
   - /terms/tou
 ---
 
-[History](https://github.com/SixSq/nuvla-io.github.com/commits/master/_terms/legal-general-terms-and-conditions.md)
+[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/legal-general-terms-and-conditions.md)
 
 **1\.	Subject**
 

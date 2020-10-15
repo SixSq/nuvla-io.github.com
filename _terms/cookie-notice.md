@@ -13,7 +13,7 @@ applicable_from: 14/10/2020
 last_update: 14/10/2020
 ---
 
-[History](https://github.com/SixSq/nuvla-io.github.com/commits/master/_terms/cookie-notice.md)
+[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/cookie-notice.md)
 
 1. This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on the Nuvla.io website to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
 
