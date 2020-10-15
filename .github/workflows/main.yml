@@ -11,18 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
-    #- uses: actions/cache@v1
-    #  with:
-    #    path: vendor/bundle
-    #    key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-    #    restore-keys: |
-    #      ${{ runner.os }}-gems-
-
-    # Standard usage
+    # Jekyll build
     - uses:  lemonarc/jekyll-action@1.0.0
-    # Docker build
+    # Docker build & push
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1
     - name: Set up Docker Buildx
@@ -36,7 +27,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: ./Dockerfile
+        file: ./.container/Dockerfile
         platforms: linux/amd64
         push: true
         tags: 0xbase12/nuvla-io.github.com:latest
