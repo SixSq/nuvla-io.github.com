@@ -6,7 +6,7 @@ class: pricing
 product-name: Nuvla.io
 title: Enable your edge with our management platform as a service
 header: Simple Subscription Pricing
-subheader: The Nuvla.io pricing is simple and predictable. Start your a 14-day free trial now.
+subheader: The Nuvla.io pricing is simple and predictable. Start your 14-day free trial now.
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
 banner-icon: fad fa-shopping-cart
 permalink: /pricing
