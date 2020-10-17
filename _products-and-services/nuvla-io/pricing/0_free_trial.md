@@ -1,5 +1,5 @@
 ---
-product: nuvla-io
+product: nuvla-io__
 category: nuvla-io
 class: pricing
 product-name: Nuvla.io

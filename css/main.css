@@ -192,7 +192,7 @@ td, th {
 .fw500 {
   font-weight: 500; }
 
-.fw600 {
+.fw600, .pricing .title {
   font-weight: 600; }
 
 .fw700, .section-is-it-for h2, .section-intro-product h2 {
@@ -201,13 +201,13 @@ td, th {
 .fsi {
   font-style: italic; }
 
-.mt-10 {
+.mt-10, .pricing .monthly, .pricing .condition, .pricing .per-unit {
   margin-top: 10px; }
 
 .mt-15 {
   margin-top: 15px; }
 
-.mt-20 {
+.mt-20, .pricing .title {
   margin-top: 20px; }
 
 .mt-25 {
@@ -255,7 +255,7 @@ td, th {
 .ml-15 {
   margin-left: 15px; }
 
-.ml-20 {
+.ml-20, .pricing .monthly {
   margin-left: 20px; }
 
 .ml-30 {
@@ -263,6 +263,9 @@ td, th {
 
 .ml-50 {
   margin-left: 50px; }
+
+.ml-100 {
+  margin-left: 100px; }
 
 .mr-0 {
   margin-right: 0 !important; }
@@ -276,7 +279,7 @@ td, th {
 .mr-10 {
   margin-right: 10px; }
 
-.mr-20 {
+.mr-20, .pricing .monthly {
   margin-right: 20px; }
 
 .mr-30 {
@@ -285,7 +288,10 @@ td, th {
 .mr-50 {
   margin-right: 50px; }
 
-.mb-0 {
+.mr-100 {
+  margin-right: 100px; }
+
+.mb-0, .pricing .nb-price-section, .pricing .is-price-section {
   margin-bottom: 0px; }
 
 .mb-0-i {
@@ -294,13 +300,13 @@ td, th {
 .mb-5 {
   margin-bottom: 5px; }
 
-.mb-10 {
+.mb-10, .pricing .condition, .pricing .per-unit {
   margin-bottom: 10px; }
 
 .mb-15 {
   margin-bottom: 15px; }
 
-.mb-20 {
+.mb-20, .pricing .monthly {
   margin-bottom: 20px; }
 
 .mb-25 {
@@ -330,10 +336,10 @@ td, th {
 .mb-100 {
   margin-bottom: 100px; }
 
-.pt-0 {
+.pt-0, .pricing .monthly {
   padding-top: 0px; }
 
-.pt-10 {
+.pt-10, .pricing .nb-price-section, .pricing .is-price-section {
   padding-top: 10px; }
 
 .pt-15 {
@@ -381,7 +387,7 @@ td, th {
 .pb-15 {
   padding-bottom: 15px; }
 
-.pb-20 {
+.pb-20, .pricing .nb-price-section, .pricing .is-price-section {
   padding-bottom: 20px; }
 
 .pb-25 {
@@ -682,7 +688,7 @@ td, th {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(0%); }
 
-.highlight-image img, img.highlight-image {
+.highlight, .pricing .item, .highlight-image img, img.highlight-image {
   padding: 40px;
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.5s ease;
@@ -695,6 +701,12 @@ a.anchor {
   position: relative;
   top: -100px;
   visibility: hidden; }
+
+.text-left, .pricing .type {
+  text-align: left !important; }
+
+.text-center, .pricing .item, .pricing .limit {
+  text-align: center !important; }
 
 .header-welcome, .header-std {
   position: relative;
@@ -1095,8 +1107,6 @@ a.anchor {
   margin: inherit;
   padding: 0px 0px 20px 25px;
   list-style: inherit; }
-.section-is-it-for .icon-is-it-for .icon-pricing {
-  background-color: #fff; }
 .section-is-it-for .icon-is-it-for .circle {
   margin: 0 30px;
   width: 130px;
@@ -2362,5 +2372,63 @@ footer .footer-content {
       background-color: rgba(0, 0, 0, 0.4) !important; }
   .casestudy-section.casestudy-science-gnss {
     background-image: url(/img/content/gnss.png); }
+
+.pricing {
+  padding: 10px 5px; }
+  .pricing h2 {
+    font-size: 18px; }
+  .pricing h3 {
+    font-size: 18px; }
+  .pricing h4 {
+    font-size: 16px; }
+  .pricing h5 {
+    font-size: 14px; }
+  .pricing p {
+    font-size: 16px; }
+  .pricing .row > div {
+    align-item: center;
+    display: flex;
+    flex-direction: column; }
+  .pricing .row > h5 {
+    color: #727272; }
+  .pricing .item {
+    padding: 20px 0 0 0;
+    background-color: #fff; }
+  .pricing .title {
+    height: 30px; }
+  .pricing .subtitle {
+    color: #727272;
+    min-height: 30px; }
+  .pricing .monthly {
+    color: white;
+    min-height: 0;
+    background: gray; }
+  .pricing .condition {
+    height: 20px; }
+  .pricing .per-unit {
+    padding: 5px 10px;
+    color: #727272;
+    height: 20px; }
+  .pricing .nb-price-section {
+    background: #FFFEE1; }
+  .pricing .is-price-section {
+    background: #E1FFFF; }
+  .pricing .price {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    min-height: 20px; }
+  .pricing .first-per-unit, .pricing .first-price, .pricing .first-limit {
+    margin-right: 20px; }
+  .pricing .limit {
+    min-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .pricing .type {
+    padding: 5px 10px 10px 10px; }
+  .pricing .detail {
+    color: #727272 !important;
+    padding-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */

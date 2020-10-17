@@ -7,7 +7,7 @@
     {% include {{ page.product }}-banner.html %}
 		<section class="mt-20 section-is-it-for">
 			<div class="container">
-				<div class="row justify-content-center icon-is-it-for pb-50 bg-grey1">
+				<div class="row justify-content-center bg-grey1">
           {% for post in site.products-and-services %}
             {% if post.product == page.product %}
               {% if post.class == 'pricing' %}
@@ -19,7 +19,7 @@
 			</div>
 		</section>
 		<section class="section-is-it-for">
-			<div class="container pt-50 pb-50">
+			<div class="container pt-20 pb-50">
         {{ page.content | markdownify }}
       </div>
 		</section>

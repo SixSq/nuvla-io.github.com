@@ -1,57 +1,66 @@
-					<div class="col-md-5 col-sm-6 col-xs-12 ml-10 mb-10 item icon animated icon-pricing text-center">
-            <div class="icon-title" style="background-color: {{ post.color }}">
-                    {% if post.free %}
-                      <i class="fas fa-euro-sign"></i><span class="fs-30 fw600" style="font-size: 60px; color: #9B1313"> 0.00</span>
-                    {% else %}
-                      <i class="fa {{ post.icon }}"></i>
-                    {% endif %}
-            </div>
-            <h3 class="mt-20 text-center fw600">{{ post.title }}</h3>
-						<h4 class="mt-10 text-center">{{ post.subtitle }}</h4>
-            <hr/>
-						<h4 class="mt-10 mb-10 text-center">{{ post.condition }}</h4>
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-6 text-center" style="align-item: center; display: flex; flex-direction: column; justify-content: space-between">
-                <div>
-                  <p class="fs-30 fw600">{{ post.nb_limit }}</p>
-                  <p>Concurrently active NuvlaBoxes</p>
-                </div>
-                <div>
-                  <p>Monthly</p>
-                  <center>
-                    <h4 class="mt-20 text-center fw600 circle">
-                      {% if post.free %}
-                        Free
-                      {% else %}
-                        <i class="fas fa-euro-sign"></i>{{ post.nb_price }}
-                      {% endif %}
-                    </h4>
-                  </center>
-                </div>
-                <div>
-                  <p class="mt-20 pb-25">per NuvlaBox</p>
-                </div>
+					<div class="col-md-3 col-sm-6 col-xs-12 pricing">
+            <div class="item icon">
+              <div class="icon-title">
+                <i class="fa {{ post.icon }}" style="color: #{{ post.color }};"></i>
               </div>
-              <div class="col-md-6 col-sm-6 col-xs-6 text-center" style="align-item: center; border-left: 1px solid rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; justify-content: space-between">
-                <div>
-                  <p class="fs-30 fw600">{{ post.is_limit }}</p>
-                  <p>Concurrent infrastructure service app deployments</p>
+              <h3 class="title">{{ post.title }}</h3>
+  						<h4 class="subtitle">{{ post.subtitle }}</h4>
+  						<h4 class="monthly">Monthly</h4>
+  						<h5 class="condition">{{ post.condition }}</h5>
+              {% if post.is-first %}
+                <div class="row">
+                  <div class="col-md-7 col-sm-7 col-xs-7"">
+                  </div>
+                  <div class="col-md-5 col-sm-5 col-xs-5">
+                    <div>
+                      <h5 class="per-unit first-per-unit">per unit</h5>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <p>Monthly</p>
-                  <center>
-                    <h4 class="mt-20 text-center fw600 circle">
-                      {% if post.free %}
-                        Free
-                      {% else %}
-                        <i class="fas fa-euro-sign"></i>{{ post.is_price }}
-                      {% endif %}
-                    </h4>
-                  </center>
+                <div class="nb-price-section">
+                  <div class="row">
+                    <div class="col-md-7 col-sm-7 col-xs-7 text-left" style="border-right: solid 1px grey;">
+                      <div>
+                        <h5 class="type"><i class="fad fa-box"></i> NuvlaBox</h5>
+                        <h5 class="detail">Active NuvlaBoxes only</h5>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-5">
+        						  <h5 class="limit first-limit">{{ post.nb_limit }}</h5>
+                      <div>
+        						    <h4 class="price first-price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.nb_price }}</h4>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                <p class="mt-20">per infrastructure service app deployment</p>
+                <div class="is-price-section">
+                  <div class="row">
+                    <div class="col-md-7 col-sm-7 col-xs-7 text-left" style="border-right: solid 1px grey;">
+                      <h5 class="type"><i class="fad fa-play"></i> App Deployments</h5>
+                      <h5 class="detail">Active deployments (not in NuvlaBoxes)</h5>
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-5">
+                      <h5 class="limit first-limit">{{ post.is_limit }}</h5>
+                      <div>
+                        <h4 class="price first-price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.is_price }}</h4>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              {% else %}
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h5 class="per-unit">per unit</h5>
+                  </div>
+                </div>
+                <div class="nb-price-section">
+    						  <h5 class="limit">{{ post.nb_limit }}</h5>
+    						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.nb_price }}</h4>
+                </div>
+                <div class="is-price-section">
+                  <h5 class="limit">{{ post.is_limit }}</h5>
+    						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.is_price }}</h4>
+                </div>
+              {% endif %}
             </div>
-					</div>
+          </div>

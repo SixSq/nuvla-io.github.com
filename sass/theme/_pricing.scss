@@ -1,0 +1,100 @@
+$color-grey: #727272;
+.pricing {
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+  padding: 10px 5px;
+  .row > div {
+    align-item: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .row > h5 {
+    color: $color-grey;
+  }
+  .item {
+    @extend .highlight;
+    padding: 20px 0 0 0;
+		background-color: #fff;
+    @extend .text-center;
+  }
+  .title {
+    @extend .mt-20;
+    @extend .fw600;
+    height: 30px;
+  }
+  .subtitle {
+    color: $color-grey;
+    min-height: 30px;
+  }
+  .monthly {
+    color: white;
+    min-height: 0;
+    background: gray;
+    @extend .pt-0;
+    @extend .mt-10;
+    @extend .mb-20;
+    @extend .ml-20;
+    @extend .mr-20;
+  }
+  .condition {
+    @extend .mt-10;
+    @extend .mb-10;
+    height: 20px;
+  }
+  .per-unit {
+    padding: 5px 10px;
+    @extend .mt-10;
+    @extend .mb-10;
+    color: $color-grey;
+    height: 20px;
+  }
+  .nb-price-section {
+    @extend .pt-10;
+    @extend .mb-0;
+    @extend .pb-20;
+    background: #FFFEE1;
+  }
+  .is-price-section {
+    @extend .pt-10;
+    @extend .mb-0;
+    @extend .pb-20;
+    background: #E1FFFF;
+  }
+  .price {
+    display: inline-block;
+    @include border-radius(); 
+    color: white;
+    padding: 5px 10px;
+    min-height: 20px;
+  }
+  .first-per-unit, .first-price, .first-limit {
+    margin-right: 20px;
+  }
+  .limit {
+    min-height: 20px;
+    @extend .text-center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .type {
+    @extend .text-left;
+    padding: 5px 10px 10px 10px;
+  }
+  .detail {
+    color: $color-grey !important;
+    padding-left: 10px;
+  }
+}

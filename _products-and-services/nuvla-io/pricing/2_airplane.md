@@ -6,12 +6,12 @@ product-name: Nuvla.io
 plan: nuvlabox
 title: Airplane
 subtitle: 20&#37; Discount
-condition: Discount automatically applies as soon as you have&colon;
+condition: Discount automatically applies
 nb_price: "40.00"
 is_price: "4.80"
 unit: NuvlaBox
-color: #D9E1F2
+color: FBBB27
 icon: fad fa-plane
-nb_limit: 100
-is_limit: 1000
+nb_limit: From 100
+is_limit: From 1000
 ---
