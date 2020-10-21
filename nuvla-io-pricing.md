@@ -5,8 +5,8 @@ category: nuvla-io
 class: pricing
 product-name: Nuvla.io
 title: Enable your edge with our management platform as a service
-header: Simple Subscription Pricing
-subheader: The Nuvla.io pricing is simple and predictable. Start your 14-day free trial now.
+header: Pay-as-you-go Simple Pricing
+subheader: Only pay for active resources, with automatic volume discount. No commitment required. Start your 14-day free trial now.
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
 banner-icon: fad fa-shopping-cart
 permalink: /pricing
@@ -18,13 +18,13 @@ permalink: /pricing
  * **App Deployments**: the maximum number of app deployments running on container orchestration engines (Kubernetes or Docker Swarm). In other words, we don't meter the app deployments running in NuvlaBoxes. 
 {: class="ml-20 mt-10 mb-10" style="list-style: disc; font-size: 16px;"}
 
-#### Each month, we take the maximum of these values and apply the best discount, giving you an optimal price. Below you will find an overview of the available discounts. You can also download a [PDF version of the pricing](/pricing/Nuvla-io-pricing-2020-v1.1.pdf).
+#### Each month, we take the maximum of these values and apply the best discount, giving you an optimal price. Above you will find an overview of the available discounts. You can also download a [PDF version of the pricing](/pricing/Nuvla-io-pricing-2020-v1.1.pdf).
 
 #### The way we meter NuvlaBoxes and App Deployments means that you are free to play at the edge, in the cloud or both together (our preferred way).
 
 ---
 
-#### Included with the subscription:
+#### Included with the pay-as-you-go subscription:
 {: class="mb-10 text-center" }
 
 #### **Support**:
