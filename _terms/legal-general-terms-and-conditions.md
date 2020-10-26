@@ -167,3 +167,5 @@ Our contact information is as follows:
 Any claims relating to the interpretation and/or execution of these ToS shall be subject to Swiss jurisdiction in Geneva.
 
 Claims should be addressed to [claims@sixsq.com](mailto:claims@sixsq.com).
+
+Note: these terms derive from the [original](https://github.com/Cocolabs-SAS/MarketplaceTermsOfUse) work of [Antoine Dufrane](dufraneantoine@gmail.com). 
