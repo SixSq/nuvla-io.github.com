@@ -31,7 +31,7 @@ These ToS are accessible at any time on the website [https://nuvla.io](https://n
 - **ToS** means these Terms and Conditions of Use;
 - **Account** means the account that must be created in order to become a User and access certain services offered by the Platform;
 - **User** refers to any person who has created an Account on the Platform;
-- **Purchaser** refers to any User of the Platform who uses the Platform to deploy and manage applications offered by the Vendors;
+- **Purchaser** refers to any User of the Platform who uses the Platform to deploy and manage Applications offered by the Vendors;
 - **Platform** has the meaning given to it in Article 1, above;
 - **Vendor** means any person or organisation making Applications available on the Platform for the purpose of being deployed by Purchasers;
 - **Website** means the website accessible at [https://nuvla.io](https://nuvla.io).
@@ -71,7 +71,7 @@ In any event, registration on the Platform may only be made by a natural person 
 
 **6\.2\.	Opening the Account**
 
-The Platform allows Users, and only Users, among others, to deploy, manage and update cloud and edge applications, as well as to deploy edge equipment. The Platform also allows edge and cloud applications to be sold and purchased on a subscription basis. Finally, the Platform offers a range of tools to secure the use of the Platform.
+The Platform allows Users, and only Users, among others, to deploy, manage and update cloud and edge Applications, as well as to deploy edge equipment. The Platform also allows edge and cloud Applications to be sold and purchased on a subscription basis. Finally, the Platform offers a range of tools to secure the use of the Platform.
 
 To create an Account, you must fill out the activation form available on the Platform, and choose your identifiers by entering a valid user email. Any incomplete or erroneous registration request will not be validated.
 
@@ -94,7 +94,7 @@ You may terminate your Account at any time without charge and without cause. To 
 
 **7\.	Use of the Platform**
 
-Platform Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying its Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows the sharing of different resources with other Users. The Purchaser is then responsible for the purchases made by the User members of the Group, when acting as a member of the Group. 
+Platform Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud Applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying its Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows the sharing of different resources with other Users. The Purchaser is then responsible for the purchases made by the User members of the Group, when acting as a member of the Group. 
 
 **8\.	Financial Conditions**
 
@@ -112,11 +112,11 @@ In the event that an invoice is unpaid, the Platform may block the User's Accoun
 
 **8\.4\. Financial conditions for Vendors**
 
-The Vendor must provide the necessary information to be able to receive payments from the Platform's Payment Service. The Vendor shall define the subscription amount for each application that he/she offers on the Platform.
+The Vendor must provide the necessary information to be able to receive payments from the Platform's Payment Service. The Vendor shall define the subscription amount for each Application that it offers on the Platform. The Vendor cannot sell to Purchasers Applications outside the Platform.
 
 **8\.5\. Financial conditions for the Platform**
 
-The Platform can offer paid services, such as edge equipment management or cloud application deployment. Prices for these services are available on the Website and the Platform.
+The Platform can offer paid services, such as edge equipment management or cloud Application deployment. Prices for these services are available on the Website and the Platform.
 
 **9\.	Payment Service**
 
@@ -124,7 +124,7 @@ The Platform, operated by SixSq, uses and integrates Stripe online payment servi
 
 **10\.	Coupons**
 
-SixSq may, from time to time, offer Coupons to Vendors. These Coupons allow Vendors to offer Purchasers free discounts on their invoices for marketing and promotional purposes. These Coupons are generally single-use, time-limited and only associated with a single application. It is Vendor's responsibility to notify SixSq of any lost Coupons as soon as possible. These Coupons reduce a Purchaser's invoice either by a nominal value (the invoice cannot be negative following the application of a Coupon) or by a percentage. The Coupon must be applied by the User when deploying an Application corresponding to the Coupon using the Platform.
+SixSq may, from time to time, offer Coupons to Vendors. These Coupons allow Vendors to offer Purchasers free discounts on their invoices for marketing and promotional purposes. These Coupons are generally single-use, time-limited and only associated with a single Application. It is Vendor's responsibility to notify SixSq of any lost Coupons as soon as possible. These Coupons reduce a Purchaser's invoice either by a nominal value (the invoice cannot be negative following the Application of a Coupon) or by a percentage. The Coupon must be applied by the User when deploying an Application corresponding to the Coupon using the Platform.
 
 **12\.	Cancellation Policy**
 
