@@ -143,16 +143,42 @@ Any user of the Platform has, in accordance with the national and European regul
 Subject to the content provided by its Users, the content of the [https://nuvla.io](https://nuvla.io) website is the property of SixSq and is protected by Swiss and international intellectual property laws.
 Any total or partial reproduction of this content is strictly prohibited and may constitute an infringement of copyright.
 
-**15\.	Partial nullity**
+**15\. Service Level Agreement (SLA)**
+
+Users purchase or subscribe to a level of service when using the Platform. Several SLAs are available. By default, the *Bronze Service Level Agreement* applies if none other are purchased separately. The Bronze SLA includes:
+
+  - 24 hours a day and 7 days a week automated monitoring of the Platform;
+  - Human support service available during normal working days;
+  - The human support service is not available during the official public holidays in Geneva;
+  - Users must report serious issues to SixSq by sending an email to [support@sixsq.com](mailto:support@sixsq.com) or using the Platform in-app chat.
+
+SixSq shall use commercially reasonable efforts to make the Platform available 24 hours a day, 7 days a week and according to the corresponding Services pledged availability, except for:
+
+  - Planned downtime and maintenance events;
+  - Force Majeure Events;
+  - Unavailability of the SixSq websites (e.g. docs.sixsq.com, sixsq.com);
+  - Failures or malfunctions in any Vendor or User software, equipment or technology; and/or
+  - If the User is in breach of these terms, including but not limited to its payment obligations against the Platform and the use of the Platform
+  - Catastrophic failure of the public cloud infrastructure the Platform relies on
+
+The Platform shall deliver the following availability:
+
+  - Nuvla.io API and User Interface: 99.5% annual availability (i.e. 365 days minus 1d 19h 49m)
+  - VPN Service: 99% annual availability (i.e. 365 days minus 3d 15h 39m 29s)
+  - Other Services: best effort, unless specified in the Confirmation Order
+  
+SixSq provides no SLA what so ever for the Apps provided by Vendors and deployed by the User.
+
+**16\.	Partial nullity**
 
 If one or more stipulations herein are held to be invalid or declared as such pursuant to a law, regulation or final decision of a competent jurisdiction, the other stipulations shall retain their full force and scope.
 
-**16\.	Applicable Law**
+**17\.	Applicable Law**
 
 The present ToS and the operations resulting therefrom are governed by Swiss law and the Geneva Court.
 They are written in English. In the event that they are translated into one or more languages, only the English text shall be authentic in the event of claims.
 
-**17\.	Identification - Contact**
+**18\.	Identification - Contact**
 
 Our contact information is as follows:
 
@@ -162,7 +188,7 @@ Our contact information is as follows:
 - E-mail: support@sixsq.com
 {: style="list-style: none;"}
 
-**18\.	Claims**
+**19\.	Claims**
 
 Any claims relating to the interpretation and/or execution of these ToS shall be subject to Swiss jurisdiction in Geneva.
 
