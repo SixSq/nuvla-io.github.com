@@ -249,7 +249,7 @@ td, th {
 .ml-5 {
   margin-left: 5px !important; }
 
-.ml-10 {
+.ml-10, .pricing-notes ol {
   margin-left: 10px; }
 
 .ml-15 {
@@ -2434,5 +2434,10 @@ footer .footer-content {
   .pricing .detail {
     color: #727272 !important;
     padding-left: 10px; }
+
+.pricing-notes ol {
+  list-style-type: none; }
+  .pricing-notes ol li {
+    font-size: 14px; }
 
 /*# sourceMappingURL=main.css.map */

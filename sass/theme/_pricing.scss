@@ -98,3 +98,14 @@ $color-grey: #727272;
     padding-left: 10px;
   }
 }
+
+.pricing-notes {
+  ol {
+    @extend .ml-10;
+    list-style-type: none;
+    li {
+      font-size: 14px;
+    }
+  }
+}
+
