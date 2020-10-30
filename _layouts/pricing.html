@@ -5,23 +5,59 @@
     {% include standard-header.html %}
 	<main>
     {% include {{ page.product }}-banner.html %}
+    <!-- <section class="section-is-it-for bg-white pb-40">
+      <div class="container pt-40">
+        <h2 class="text-center">App Store and Marketplace</h2>
+        <h3 class="pb-20 text-center">Choose between Free and Paying Apps</h3>
+        <h4 class="pb-20">App vendors sell specialised apps on the marketplace. If you are an app vendor, this is the simplest way to have your customers deploy your apps and generate revenue. If you are a customer, the marketplace is the there to help you find the right vendors. You can also capture your own apps or take advantage of the myriad of Docker images available online.<h4>
+        <div class="text-center">
+          <img style="max-width: 350px;" src="/img/content/app-store-securaxis.png"/>
+        </div>
+        <h4>Advantages:</h4>
+        <ul style="list-style: none;">
+          <li><i class="fad fa-check"></i> Your own apps are free on NuvlaBoxes. For apps deployed in the cloud, see below.</li>
+          <li><i class="fad fa-check"></i> You only pay for deployed apps, calculated daily and invoiced monthly.</li>
+          <li><i class="fad fa-check"></i> App vendors can offer discounts in the form of coupons for yearly (or longer) commitments.</li>
+        </ul>
+      </div>
+    </section> -->
 		<section class="mt-20 section-is-it-for">
+			<div class="container pt-20 pb-20">
+        <h2 class="text-center">Edge Device Management</h2>
+        {{ page.content | markdownify }}
+      </div>
 			<div class="container">
+        <h3 class="text-center">Pay-as-you-go without subscription (no commitment)</h3>
+        <h4 class="pt-20 pb-20">This is the default plan, giving you a no commitment, cancel anytime option to explore edge computing. As you increase your consumption, discounts automatically apply, giving you significant discounts.<h4> 
 				<div class="row justify-content-center bg-grey1">
           {% for post in site.products-and-services %}
             {% if post.product == page.product %}
               {% if post.class == 'pricing' %}
-                {% include pricing-item.html %}
+                {% if post.type == 'no-subscription' %}
+                  {% include pricing-item.html %}
+                {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}
         </div>
 			</div>
 		</section>
-		<section class="section-is-it-for">
-			<div class="container pt-20 pb-50">
-        {{ page.content | markdownify }}
-      </div>
+		<section class="mt-50 mb-50 section-is-it-for">
+			<div class="container">
+        <h3 class="text-center">With yearly subscription</h3>
+        <h4 class="pt-20 pb-20">As your fleet of edge devices grows, with our subscription plans, you reduce dramatically your per device per month costs, giving you a path to growth that is predictable and sustainable. You can upgrade your subscription plan at any time. We will recalculate your upgrede subscription as a prorata of your previous subscription. Just get in touch with our support team.<h4> 
+				<div class="row justify-content-center bg-grey1">
+          {% for post in site.products-and-services %}
+            {% if post.product == page.product %}
+              {% if post.class == 'pricing' %}
+                {% if post.type == 'subscription' %}
+                  {% include pricing-item.html %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+			</div>
 		</section>
 		<!-- Stop what do you get? -->
     {% include whats-next.html %}

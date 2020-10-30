@@ -4,63 +4,17 @@
                 <i class="fa {{ post.icon }}" style="color: #{{ post.color }};"></i>
               </div>
               <h3 class="title">{{ post.title }}</h3>
-  						<h4 class="subtitle">{{ post.subtitle }}</h4>
-  						<h4 class="monthly">Monthly</h4>
-  						<h5 class="condition">{{ post.condition }}</h5>
-              {% if post.is-first %}
-                <div class="row">
-                  <div class="col-md-7 col-sm-7 col-xs-7"">
-                  </div>
-                  <div class="col-md-5 col-sm-5 col-xs-5">
-                    <div>
-                      <h5 class="per-unit first-per-unit">per unit</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="nb-price-section">
-                  <div class="row">
-                    <div class="col-md-7 col-sm-7 col-xs-7 text-left" style="border-right: solid 1px grey;">
-                      <div>
-                        <h5 class="type"><i class="fad fa-box"></i> NuvlaBox</h5>
-                        <h5 class="detail">Active NuvlaBoxes only</h5>
-                      </div>
-                    </div>
-                    <div class="col-md-5 col-sm-5 col-xs-5">
-        						  <h5 class="limit first-limit">{{ post.nb_limit }}</h5>
-                      <div>
-        						    <h4 class="price first-price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.nb_price }}</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="is-price-section">
-                  <div class="row">
-                    <div class="col-md-7 col-sm-7 col-xs-7 text-left" style="border-right: solid 1px grey;">
-                      <h5 class="type"><i class="fad fa-play"></i> App Deployments</h5>
-                      <h5 class="detail">Active deployments (not in NuvlaBoxes)</h5>
-                    </div>
-                    <div class="col-md-5 col-sm-5 col-xs-5">
-                      <h5 class="limit first-limit">{{ post.is_limit }}</h5>
-                      <div>
-                        <h4 class="price first-price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.is_price }}</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              {% if post.type == 'subscription' %}
+                <h4 class="subtitle">{{ post.subtitle }}:</h4>
+                <h4 class="subtitle"><i class="fal fa-euro-sign"></i>{{ post.subscription }}</h4>
               {% else %}
-                <div class="row">
-                  <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h5 class="per-unit">per unit</h5>
-                  </div>
-                </div>
-                <div class="nb-price-section">
-    						  <h5 class="limit">{{ post.nb_limit }}</h5>
-    						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.nb_price }}</h4>
-                </div>
-                <div class="is-price-section">
-                  <h5 class="limit">{{ post.is_limit }}</h5>
-    						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fas fa-euro-sign"></i> {{ post.is_price }}</h4>
-                </div>
+                <h4 class="subtitle">{{ post.subtitle }}</h4>
               {% endif %}
+  						<h5 class="condition">{{ post.condition }}</h5>
+              <div class="nb-price-section">
+  						  <h5 class="limit">{{ post.nb_limit }}</h5>
+  						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fal fa-euro-sign"></i> {{ post.nb_price }}</h4>
+  						  <h5 class="limit">per device per month</h5>
+              </div>
             </div>
           </div>

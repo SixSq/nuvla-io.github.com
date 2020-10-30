@@ -8,10 +8,9 @@ title: Airplane
 subtitle: 20&#37; Discount
 condition: Discount automatically applies
 nb_price: "40.00"
-is_price: "4.80"
 unit: NuvlaBox
 color: FBBB27
 icon: fad fa-plane
-nb_limit: From 100
-is_limit: From 1000
+nb_limit: From 100 NuvlaBoxes
+type: no-subscription
 ---

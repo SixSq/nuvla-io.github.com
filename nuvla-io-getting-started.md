@@ -47,3 +47,17 @@ Therefore, we imposed the following strict guidelines on ourselves when we creat
 * <i class="fad fa-check"></i> **Cloud neutral:** By managing *Container Orchestration Engines*, we are compatible with all clouds, both public and private. Cloud neutrality is important, since you probably do not want to put all your eggs in the same cloud basket. And by using Nuvla.io to deploy your apps in the cloud and at the edge, you are guaranteed to remain able to swap clouds if and when needed.
 * <i class="fad fa-check"></i> **Hardware agnostic:** SixSq is a software shop. We even define ourselves as *software artisans of scale*. While we work with several market-leading hardware manufacturers, our software remains hardware agnostic. Think of the NuvlaBox software being to the edge what Microsoft Windows is to the PC or Android to the mobile phone. We do have opinons and a lot of experience and we will be happy to share it with you. But our software remains stubbornly agnostic.
 {: style="list-style-type: none;"}
+
+## NuvlaBox Engine
+{: class="text-center pt-40 pb-30"}
+
+#### The NuvlaBox Engine turns any single board computer (ARM or x86) into a smart edge device. The micro-service architecture is extensible and industrialised.
+{: class="text-center pt-20"}
+
+![NuvlaBox Engine Detailed](/img/content/diagrams/nuvlabox-detailed.png "NuvlaBox Engine Service Architecture")
+{: class="text-center pt-40 pb-20 highlight-image"}
+
+Create a comprehensive and secure edge-to-cloud architecture, to extract the insights from your data at the edge.
+{: class="text-center pt-20 pb-20"}
+
+* <i class="fad fa-check"></i> **Marketplace:** with the up-coming integration of Stripe Connect, Nuvla.io becomes a business marketplace for edge-to-cloud solutions. With revenue share between app developers and infrastructure providers, Nuvla.io enables the next generation of business at the edge.

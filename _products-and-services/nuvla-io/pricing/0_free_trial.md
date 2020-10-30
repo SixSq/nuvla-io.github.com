@@ -10,6 +10,6 @@ unit: NuvlaBox
 color: #E4E6E7
 icon: fal fa-paper-plane
 nb_limit: Unlimited
-is_limit: Unlimited
 free: true
+type: no-subscription
 ---
