@@ -15,13 +15,16 @@ permalink: /getting-started
 ## Here's the full picture
 {: class="text-center"}
 
+### Nuvla.io is a unique platform as a Service that is **cloud neutral**, **container native**, **hardware agnostic**, **open-source** based, **secure** and **agile**. You can depend on Nuvla.io for the implementation and **commercialisation of edge-to-cloud solutions**.
+{: class="text-center pt-20 pb-50"}
+
 ![Nuvla.io Detailed](/img/content/diagrams/nuvla-io-detailed.png "Nuvla.io Detailed")
 {: class="text-center pt-0 pb-50 highlight-image"}
 
 ## Service Architecture
 {: class="text-center pt-20 pb-30"}
 
-#### The Nuvla.io service architecture includes both technical and business enablement features needed for you to create your own marketplace at the edge.
+### The Nuvla.io service architecture includes both technical and business enablement features needed for you to create your own marketplace at the edge.
 {: class="text-center pt-20"}
 
 ![Nuvla.io Detailed](/img/content/diagrams/nuvla-io-service-architecture.png "Nuvla.io Service Architecture and Security")
@@ -57,7 +60,4 @@ Therefore, we imposed the following strict guidelines on ourselves when we creat
 ![NuvlaBox Engine Detailed](/img/content/diagrams/nuvlabox-detailed.png "NuvlaBox Engine Service Architecture")
 {: class="text-center pt-40 pb-20 highlight-image"}
 
-Create a comprehensive and secure edge-to-cloud architecture, to extract the insights from your data at the edge.
-{: class="text-center pt-20 pb-20"}
-
-* <i class="fad fa-check"></i> **Marketplace:** with the up-coming integration of Stripe Connect, Nuvla.io becomes a business marketplace for edge-to-cloud solutions. With revenue share between app developers and infrastructure providers, Nuvla.io enables the next generation of business at the edge.
+More details on the NuvlaBox are available [here](https://sixsq.com/products-and-services/nuvlabox/overview).
