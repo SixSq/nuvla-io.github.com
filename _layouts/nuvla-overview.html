@@ -6,12 +6,13 @@
 	<main>
     {% include {{ page.product }}-banner.html %}
     {% include {{ page.product }}-sub-menu.html %}
-		<!-- Start what do you get? -->	
+
 		<section class="section-intro-product">
 			<div class="container">
         {{ page.content | markdownify }}
 			</div>
 		</section>
+
     <section class="section-is-it-for bg-white">
     	<div class="container">
     			<div class="col-md-12 mt-20 section-title text-center pt-50">
@@ -37,7 +38,7 @@
 
 	  <section class="section-full bg-grey-e4 section-news section-partners section-is-it-for relative" style="height: auto;">
 			<div class="container text-center">
-				<h2 class="pb-20 fw700">Key Features.</h2>
+				<h2 class="pb-20 fw700">Key Features</h2>
 				<div class="row icon-is-it-for ">
         {% for post in site.products-and-services %}
           {% if page.product == post.product or page.uberproduct == post.product %}
@@ -56,11 +57,9 @@
 		</section>
 
     {% include video.html video-id='BHzbEDzyfnQ' title='Here have a look' bg='bg-grey-f9' %}
-		<!-- End Who is it for? -->	
     {% include whats-next.html %}
-		<!-- End Section News -->	
-      {% include primary-footer.html %}
-    </main>
-    {% include secondary-footer.html %}
+    {% include primary-footer.html %}
+  </main>
+  {% include secondary-footer.html %}
   </body>
 </html>
