@@ -54,10 +54,11 @@ Therefore, we imposed the following strict guidelines on ourselves when we creat
 ## NuvlaBox Engine
 {: class="text-center pt-40 pb-30"}
 
-#### The NuvlaBox Engine turns any single board computer (ARM or x86) into a smart edge device. The micro-service architecture is extensible and industrialised.
+### The NuvlaBox Engine turns any computer (ARM or x86) into a smart edge device. The micro-service architecture is extensible and industrialised.
 {: class="text-center pt-20"}
 
 ![NuvlaBox Engine Detailed](/img/content/diagrams/nuvlabox-detailed.png "NuvlaBox Engine Service Architecture")
 {: class="text-center pt-40 pb-20 highlight-image"}
 
 More details on the NuvlaBox are available [here](https://sixsq.com/products-and-services/nuvlabox/overview).
+{: class="pb-20"}
