@@ -71,7 +71,7 @@ In any event, registration on the Platform may only be made by a natural person 
 
 **6\.2\.	Opening the Account**
 
-The Platform allows Users, and only Users, among others, to deploy, manage and update cloud and edge Applications, as well as to deploy edge equipment. The Platform also allows edge and cloud Applications to be sold and purchased on a subscription basis. Finally, the Platform offers a range of tools to secure the use of the Platform.
+The Platform allows Users to deploy, manage and update cloud and edge Applications, as well as to deploy edge equipment. The Platform also allows edge and cloud Applications to be sold and purchased on a subscription basis. Finally, the Platform offers a range of tools to secure the use of the Platform.
 
 To create an Account, you must fill out the activation form available on the Platform, and choose your identifiers by entering a valid user email. Any incomplete or erroneous registration request will not be validated.
 
@@ -106,6 +106,8 @@ The Platform regularly measures the consumption of each Purchaser and calculates
 
 Purchasers receive their invoices by email and can consult them on the Platform. Invoices must be paid on time, normally within 14 days.
 
+Pay-as-you-go invoices are produced and sent on a monthly basis. Subscription invoices are produced and sent at the start of the period (normally yearly). For example, a edge management subscription (e.g. Moon or Solar System plans) will be invoiced at purchase time. Such a plan grants Purchasers access to discounted edge device monitoring service, which will be metered and invoiced monthly, in arrears.
+
 **8\.3\. Unpaid Invoices**
 
 In the event that an invoice is unpaid, the Platform may block the User's Account or limit the available functionality of the Platform.
@@ -116,7 +118,7 @@ The Vendor must provide the necessary information to be able to receive payments
 
 **8\.5\. Financial conditions for the Platform**
 
-The Platform can offer paid services, such as edge equipment management or cloud Application deployment. Prices for these services are available on the Website and the Platform.
+The Platform can offer paid services, such as subscriptions for edge device management. Prices for these services are available on the Website and the Platform.
 
 **9\.	Payment Service**
 
