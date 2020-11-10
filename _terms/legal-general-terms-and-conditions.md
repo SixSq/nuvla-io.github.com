@@ -94,7 +94,7 @@ You may terminate your Account at any time without additional charge and without
 
 **7\.	Use of the Platform**
 
-Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud Applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying these Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows the sharing of different resources with other Users. The Purchaser is then responsible for the purchases made by the User members of the Group, when acting as members of the Group. 
+Users must have a valid and active account. The Platform allows Vendors to offer edge and cloud Applications. Purchasers, also Users, can purchase edge and cloud Applications by deploying these Applications on their edge and/or cloud infrastructures. A Purchaser can create a Group, which allows the sharing of different resources with other Users. The Purchaser is then responsible for the purchases made by Users in the Group, when acting as members of the Group. Users can be both Vendors and Purchasers.
 
 **8\.	Financial Conditions**
 
