@@ -100,7 +100,7 @@ Users must have a valid and active account. The Platform allows Vendors to offer
 
 **8\.1\. Consumption and Billing Follow-up**
 
-The Platform regularly measures the consumption of each Purchaser and calculates the corresponding price. The calculation is normally carried out daily and the invoices are issued monthly. The invoice is then sent to the Purchaser. Once the payment is received, the Payment Department distributes the corresponding remuneration to the Vendor, less a commission for the Platform. This commission is normally 20%, which includes the commission for the Payment Service.
+The Platform regularly measures the consumption of each Purchaser and calculates the corresponding price. The calculation is normally carried out daily and the invoices are issued monthly. The invoice is then sent to the Purchaser. Once the payment is received, the Payment Service distributes the corresponding remuneration to the Vendor, less a commission for the Platform. This commission is normally 20%, which includes the commission for the Payment Service.
 
 **8\.2. Invoices and Payments**
 
