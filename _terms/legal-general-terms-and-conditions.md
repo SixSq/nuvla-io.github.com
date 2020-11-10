@@ -126,7 +126,7 @@ The Platform, operated by SixSq, uses and integrates Stripe online payment servi
 
 **10\.	Coupons**
 
-SixSq may, from time to time, offer Coupons to Vendors. These Coupons allow Vendors to offer Purchasers free discounts on their invoices for marketing and promotional purposes. These Coupons are generally single-use, time-limited and only associated with a single Application. It is Vendor's responsibility to notify SixSq of any lost Coupons as soon as possible. These Coupons reduce a Purchaser's invoice either by a nominal value (the invoice cannot be negative following the Application of a Coupon) or by a percentage. The Coupon must be applied by the User when deploying an Application corresponding to the Coupon using the Platform.
+SixSq may, from time to time, offer Coupons to Vendors. These Coupons allow Vendors to offer Purchasers free discounts on their invoices for marketing and promotional purposes. These Coupons are generally single-use, time-limited and only associated with a single Application. It is the Vendor's responsibility to notify SixSq of any lost Coupons as soon as possible. These Coupons reduce a Purchaser's invoice either by a nominal value (the invoice cannot be negative following the Application of a Coupon) or by a percentage. The Coupon must be applied by the User when deploying an Application corresponding to the Coupon using the Platform.
 
 **12\.	Cancellation Policy**
 
@@ -134,11 +134,15 @@ The User may terminate his account at any time by sending an email to support@si
 
 **13\.	Personal Data**
 
-As part of your use of the Platform, we may collect and process some of your personal data in order to enable SixSq to ensure the use of the Platform by Users. SixSq may transfer them to third parties or partners, in particular for canvassing purposes, which the User declares to accept.
+As part of your use of the Platform, we may collect and process some of your personal data in order to enable SixSq to ensure the use of the Platform by Users. 
+
+With regard to the personal data submitted by Users to SixSq, which are recorded and processed, SixSq undertakes to comply with the Regulation 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (“GDPR”) including any amendment thereof and the relevant Swiss legislation on data protection, and as further described in SixSq’s privacy policy available on SixSq’s website. [https://sixsq.com/terms/aai-privacy](https://sixsq.com/terms/aai-privacy)
+
+SixSq shall take appropriate technical and organisational measures against unauthorised or unlawful processing of Users’s data or its accidental loss, destruction or damage. However, under no circumstances shall SixSq be held responsible for any such unauthorised or unlawful processing of User’s data or its accidental loss, destruction or damage.
 
 By using the Platform and registering as a User, you acknowledge and agree to the processing of your personal data by SixSq in accordance with applicable law.
 
-Any user of the Platform has, in accordance with the national and European regulations in force, a permanent right of access, modification, rectification, opposition to portability and limitation of processing with regard to the information concerning him/her. The Platform user may exercise this right by sending an e-mail to support@sixsq.com or a letter addressed to the company at SixSq, 267 Route de Meyrin, 1217 Meyrin, Geneva, Switzerland, stating his or her full details (first and last name, address, telephone number, e-mail address and specifying the subject of the e-mail or letter).
+Any User of the Platform has, in accordance with the national and European regulations in force, a permanent right of access, modification, rectification, opposition to portability and limitation of processing with regard to the information concerning him/her. The Platform user may exercise this right by sending an e-mail to [support@sixsq.com](mailto:support@sixsq.com) or a letter addressed to the company at SixSq, 267 Route de Meyrin, 1217 Meyrin, Geneva, Switzerland, stating his or her full details (first and last name, address, telephone number, e-mail address and specifying the subject of the e-mail or letter).
 
 **14\.	Intellectual Property**
 
