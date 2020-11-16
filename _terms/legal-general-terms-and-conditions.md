@@ -200,4 +200,4 @@ Any claims relating to the interpretation and/or execution of these ToS shall be
 
 Claims should be addressed to [claims@sixsq.com](mailto:claims@sixsq.com).
 
-Note: these terms derive from the [original](https://github.com/Cocolabs-SAS/MarketplaceTermsOfUse) work of [Antoine Dufrane](dufraneantoine@gmail.com). 
+Note: these terms derive from the [original](https://github.com/Cocolabs-SAS/MarketplaceTermsOfUse) work of [Antoine Dufrane](https://www.linkedin.com/in/antoine-dufrane-b77b4629/). 
