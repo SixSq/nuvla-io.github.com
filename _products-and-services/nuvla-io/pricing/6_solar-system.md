@@ -11,6 +11,6 @@ nb_price: "2.00"
 unit: NuvlaBox
 color: 2F77B3
 icon: fad fa-solar-system
-subscription: 100 000
+subscription: 100'000
 type: subscription
 ---
