@@ -35,11 +35,10 @@ You are permitted to deploy the app software (for example an edge device, IoT de
 
 You are not permitted to:
 
- 1. Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole or any part of the Software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the Software or attempt to do any such things
- 2. Reproduce, copy, distribute, resell or otherwise use the Software for any commercial purpose
- 3. Allow any third party to use the Software on behalf of or for the benefit of any third party
- 4. Use the Software in any way which breaches any applicable local, national or international law
- 5. Use the Software for any purpose that <span class="company_name">Your Company</span> considers is a breach of this EULA agreement
+ 1. Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole or any part of the Software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the Software or attempt to do any such things.
+ 2. Circumvent the Nuvla.io platform to reproduce, copy, distribute, resell or otherwise the Software for any reason.
+ 3. Use the Software in any way which breaches any applicable local, national or international law.
+ 4. Use the Software for any purpose that the Vendor considers is a breach of this EULA agreement.
 
 ### Limitation of liability
 
