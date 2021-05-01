@@ -10,7 +10,7 @@ icon: fad fa-file-certificate
 banner-icon: fad fa-file-certificate
 permalink: /terms/app-license
 applicable_from: 29/04/2021
-last_update: 29/04/2021
+last_update: 01/05/2021
 ---
 
 [History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/apps-license.md)
