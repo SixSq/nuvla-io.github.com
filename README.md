@@ -1,2 +1,6 @@
 # nuvla-io.github.com
-Prototype dedicated Nuvla.io website
+Nuvla.io website
+
+## Copyright
+
+Copyright &copy; 2021, SixSq SA
