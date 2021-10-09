@@ -1,5 +1,14 @@
 $color-grey: #727272;
 .pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @extend .highlight;
+  padding: 0px 0 0 0;
+  margin: 8px;
+	background-color: #fff;
+  @extend .text-center;
+  
   h2 {
     font-size: 18px;
   }
@@ -15,7 +24,7 @@ $color-grey: #727272;
   p {
     font-size: 16px;
   }
-  padding: 10px 5px;
+//  padding: 10px 5px;
   .row > div {
     align-item: center;
     display: flex;
@@ -24,11 +33,14 @@ $color-grey: #727272;
   .row > h5 {
     color: $color-grey;
   }
+  .icon-title {
+    padding-top: 20px;
+  }
   .item {
-    @extend .highlight;
-    padding: 20px 0 0 0;
-		background-color: #fff;
-    @extend .text-center;
+//    @extend .highlight;
+//    padding: 20px 0 0 0;
+//    background-color: #fff;
+//    @extend .text-center;
   }
   .title {
     @extend .mt-20;

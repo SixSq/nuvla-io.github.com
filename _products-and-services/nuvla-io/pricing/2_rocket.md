@@ -4,13 +4,13 @@ category: nuvla-io
 class: pricing
 product-name: Nuvla.io
 plan: nuvlabox
-title: Moon
+title: Rocket
 subtitle: Yearly subscription
-condition: Pay per unit
-nb_price: "5.00"
+nb_price: "6.00"
 unit: NuvlaBox
-color: 664B91
-icon: fad fa-space-station-moon
+color: F16F27
+icon: fad fa-rocket-launch
 subscription: 25'000
+best-from: 47
 type: subscription
 ---

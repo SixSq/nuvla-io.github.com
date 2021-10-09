@@ -1,20 +1,42 @@
-					<div class="col-md-3 col-sm-6 col-xs-12 pricing">
-            <div class="item icon">
-              <div class="icon-title">
-                <i class="fa {{ post.icon }}" style="color: #{{ post.color }};"></i>
-              </div>
-              <h3 class="title">{{ post.title }}</h3>
+					  <div class="col-md-3 col-sm-6 col-xs-12 pricing item">
+              <!-- <div class="item"> -->
+                <div class="icon-title">
+                  <i class="fa {{ post.icon }}" style="color: #{{ post.color }};"></i>
+                </div>
+                <h3 class="title">{{ post.title }}</h3>
               {% if post.type == 'subscription' %}
                 <h4 class="subtitle">{{ post.subtitle }}:</h4>
-                <h4 class="subtitle"><i class="fal fa-euro-sign"></i>{{ post.subscription }}</h4>
               {% else %}
                 <h4 class="subtitle">{{ post.subtitle }}</h4>
               {% endif %}
-  						<h5 class="condition">{{ post.condition }}</h5>
-              <div class="nb-price-section">
-  						  <h5 class="limit">{{ post.nb_limit }}</h5>
-  						  <h4 class="price" style="background-color: #{{ post.color }};"><i class="fal fa-euro-sign"></i> {{ post.nb_price }}</h4>
-  						  <h5 class="limit">per device per month</h5>
+              {% if post.type == 'subscription' %}
+                <div>
+  						    <h4 class="price" style="background-color: #{{ post.color }};"><i class="fal fa-euro-sign"></i> {{ post.subscription }}</h4>
+                </div>
+              {% else %}
+                <h4 class="price mt-30" style="background-color: white;">
+                </h4>
+              {% endif %}
+              <div>
+              {% if post.type == 'subscription' %}
+                <div class="ui horizontal divider" style="margin-bottom: -13px; margin-top: 0;"><i class="fal fa-plus fa-2x"></i></div>
+              {% else %}
+              {% endif %}
+              <div>
+                <div class="nb-price-section pt-50" style="padding-bottom: 5px;">
+  						    <h5 class="limit">Pay-as-you-go:</h5>
+  						    <h4 class="price" style="background-color: #{{ post.color }};"><i class="fal fa-euro-sign"></i> {{ post.nb_price }}</h4>
+  						    <h5 class="limit">per device per month</h5>
+                </div>
+              {% if post.type == 'subscription' %}                
+                <div class="" style="background-color: grey">
+  						    <h3 class="limit" style="color: white">Best from {{ post.best-from }} devices</h3>
+                </div>
+              {% else %}
+                <div class="" style="background-color: grey">
+  						    <h3 class="limit" style="color: white">Best for &#60;47 devices</h3>
+                </div>
+              {% endif %}
+              </div>
               </div>
             </div>
-          </div>

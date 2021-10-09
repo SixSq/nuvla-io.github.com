@@ -5,12 +5,13 @@ class: pricing
 product-name: Nuvla.io
 plan: nuvlabox
 title: Starship
-subtitle: 43&#37; Discount
-condition: Discount automatically applies
-nb_price: "28.50"
+subtitle: Yearly subscription
+condition: Pay per unit
+nb_price: "2.00"
 unit: NuvlaBox
 color: D9262C
 icon: fad fa-starship
-nb_limit: From 1000 NuvlaBoxes
-type: no-subscription
+subscription: 100'000
+best-from: 1500
+type: subscription
 ---

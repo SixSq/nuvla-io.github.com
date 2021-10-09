@@ -29,16 +29,14 @@
         {{ page.content | markdownify }}
       </div>
 			<div class="container">
-        <h3 class="text-center fw600 pt-20">Pay-as-you-go without subscription (no commitment)</h3>
-        <h4 class="pt-20">This is the default plan, giving you a no commitment, cancel anytime option to explore edge computing. As you increase your consumption, discounts automatically apply, giving you significant discounts.<h4> 
-        <h4 class="pt-20 pb-20">Each month, we take the maximum number of devices running the <a href="https://sixsq.com/products-and-services/nuvlabox/overview">NuvlaBox</a> software and apply the best discount, giving you an optimal price.
+        <h3 class="text-center fw600 pt-20">Pay-as-you-go with and without subscription</h3>
+        <h4 class="pt-20">We measure the number devices running the <a href="https://sixsq.com/products-and-services/nuvlabox/overview">NuvlaBox</a> software and invoice you monthly accordingly.<h4> 
+        <h4 class="pt-20 pb-20">As your fleet of edge devices grows, with our subscription plans, you can reduce dramatically your per device per month costs, giving you a path to growth that is simple, predictable and sustainable. You can upgrade your subscription plan at any time. Just get in touch with our sales team.<h4> 
 				<div class="row justify-content-center pb-20 bg-grey1">
           {% for post in site.products-and-services %}
             {% if post.product == page.product %}
               {% if post.class == 'pricing' %}
-                {% if post.type == 'no-subscription' %}
-                  {% include pricing-item.html %}
-                {% endif %}
+                {% include pricing-item.html %}
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -55,47 +53,10 @@
           </div>
 					<div class="col-md-6 col-sm-6 col-xs-12 pricing-notes">
             <ol>
-              <li>5. Discounts are calculated automatically, each month.</li>
-              <li>6. A NuvlaBox is a computer running the NuvlaBox software.</li>
-              <li>7. We do not provide hardware and no hardware cost is included in this pricing.</li>
-              <li>8. Only active devices metered (e.g. no charge while devices in storage or in transit).</li>
-            </ol>
-          </div>
-        </div>
-        <hr/>
-			</div>
-		</section>
-		<section class="mt-40 mb-50 section-is-it-for">
-			<div class="container">
-        <h3 class="text-center fw600">With yearly subscription</h3>
-        <h4 class="pt-20 pb-20">As your fleet of edge devices grows, with our subscription plans, you reduce dramatically your per device per month costs, giving you a path to growth that is predictable and sustainable. You can upgrade your subscription plan at any time. Just get in touch with our support team.<h4> 
-				<div class="row justify-content-center bg-grey1">
-          {% for post in site.products-and-services %}
-            {% if post.product == page.product %}
-              {% if post.class == 'pricing' %}
-                {% if post.type == 'subscription' %}
-                  {% include pricing-item.html %}
-                {% endif %}
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        </div>
-        <h4 class="pt-40">Notes:<h4> 
-				<div class="row justify-content-center pb-20 bg-grey1">
-					<div class="col-md-6 col-sm-6 col-xs-12 pricing-notes">
-            <ol class="ml-10">
-              <li>1. Bronze support included (refer to SLA in <a href="/terms/tos">terms</a>).</li>
-              <li>2. For Silver and Gold support, please contact us.</li>
-              <li>3. Customer can upgrade from Moon to Solar System at any time.</li>
-              <li>4. One VPN client included per registered user.</li>
-            </ol>
-          </div>
-					<div class="col-md-6 col-sm-6 col-xs-12 pricing-notes">
-            <ol>
-              <li>5. A NuvlaBox is a computer running the NuvlaBox software.</li>
+              <li>5. A NuvlaBox is a computer running the NuvlaBox Engine software.</li>
               <li>6. We do not provide hardware and no hardware cost is included in this pricing.</li>
               <li>7. Only active devices metered (e.g. no charge while devices in storage or in transit).</li>
-              <li>8. The volume subscription gives you access to reduced pay-per-use pricing.</li>
+              <li>8. The volume subscription gives you access to reduced pay-as-you-go pricing.</li>
             </ol>
           </div>
         </div>
