@@ -13,7 +13,7 @@ applicable_from: 29/04/2021
 last_update: 01/05/2021
 ---
 
-[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/apps-license.md)
+[History](https://github.com/SixSq/sixsq-io.github.com/commits/main/_terms/apps-license.md)
 
 This End-User License Agreement ("EULA") is a legal agreement between you and the Vendor of the app you are deploying via Nuvla.io, for which the Vendor has selected this License. This EULA was created by [EULA Template](https://www.eulatemplate.com) for Vendors choosing to distribute their apps on Nuvla.io using this License. For this License agreement to apply, it must be referenced in the app definition in Nuvla.io.
 
@@ -51,6 +51,8 @@ The software is provided "as is", without warranty of any kind, express or impli
 The Vendor shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of the Vendor.
 
 The Vendor reserves the right to grant licences to use the Software to third parties.
+
+While the Nuvla.io platform operator takes mesures to protect the intellectual property of the Vendor, it is ultimately the responsibility of the Vendor to protect its Software. For example, Nuvla.io's best practices include the Vendor using a private Docker registry to store its Docker images. However, this is not a fail safe approach, since customers could get access to the Docker registry access key from their edge device to get access to the registry.
 
 ## Termination
 
