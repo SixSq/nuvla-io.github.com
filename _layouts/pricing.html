@@ -5,27 +5,26 @@
     {% include standard-header.html %}
 	<main>
     {% include {{ page.product }}-banner.html %}
-    <section class="section-is-it-for bg-white pb-40">
-      <div class="container pt-40">
-        <h2 class="text-center">App Store and <a href="/marketplace">Marketplace<a/></h2>
-        <h3 class="pb-20 text-center">Choose between Free and Paying Apps</h3>
-        <h4 class="pb-20">App vendors sell specialised apps on the marketplace. If you are an app vendor, this is the simplest way to have your customers deploy your apps and generate revenue. If you are a customer, the marketplace is there to help you find the right apps. You can also capture your own apps or take advantage of the myriad of Docker images available online.<h4>
-        <div class="text-center">
-          <img style="max-width: 350px;" src="/img/content/marketplace-pricing-app-example.png"/>
+		<section class="pt-20 section-is-it-for bg-white">
+			<div class="container">
+        <h2 class="text-center">Edge Device Management</h2>
+				<div class="row justify-content-center pb-20 bg-grey1">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="text-center" style="height: 100%; display: flex; flex-direction: column; justify-content: center">
+              <h3>Starting from</h3>
+              <h3 class="pt-10 pb-0 fw600" style="font-size: 45px;">€2</h3>
+              <h3 class="pt-10">per device / month*</h3>
+              <p class="pt-10" style="font-size: 14px;">*with the Starship subscription plan.</p>
+            </div>
+          </div>
+					<div class="col-md-6 col-sm-6 col-xs-12" style="padding: 0; marging: 0;">
+            <img style="padding: 0; marging: 0;" src="http://localhost:4000/img/content/pricing-edge-dashboard.png"/>
+          </div>
         </div>
-        <h4>Advantages:</h4>
-        <ul style="list-style: none;">
-          <li><i class="fad fa-check"></i> Your own apps are free.</li>
-          <li><i class="fad fa-check"></i> You only pay for deployed apps, calculated daily and invoiced monthly.</li>
-          <li><i class="fad fa-check"></i> You have one day to try apps before metering starts.</li>
-          <li><i class="fad fa-check"></i> App vendors can offer discounts in the form of coupons for yearly (or longer) commitments, or promotions.</li>
-          <li><i class="fad fa-check"></i> App vendors are free to set their own price.</li>
-        </ul>
       </div>
-    </section>
+		</section>
 		<section class="mt-20 section-is-it-for">
 			<div class="container pt-20 pb-0">
-        <h2 class="text-center">Edge Device Management</h2>
         {{ page.content | markdownify }}
       </div>
 			<div class="container">
@@ -62,6 +61,25 @@
         </div>
 			</div>
 		</section>
+    <section class="section-is-it-for bg-white pb-40">
+      <div class="container pt-40">
+        <h2 class="text-center">App Store and <a href="/marketplace">Marketplace<a/></h2>
+        <h3 class="pb-20 text-center">Choose between Free and Paying Apps</h3>
+        <h4 class="pb-20">App vendors sell specialised apps on the marketplace. If you are an app vendor, this is the simplest way to have your customers deploy your apps and generate revenue. If you are a customer, the marketplace is there to help you find the right apps. You can also capture your own apps or take advantage of the myriad of Docker images available online.<h4>
+        <div class="text-center">
+          <img style="max-width: 350px;" src="/img/content/marketplace-pricing-app-example.png"/>
+        </div>
+        <h4>Advantages:</h4>
+        <ul style="list-style: none;">
+          <li><i class="fad fa-check"></i> Your own apps are free.</li>
+          <li><i class="fad fa-check"></i> You only pay for deployed apps, calculated daily and invoiced monthly.</li>
+          <li><i class="fad fa-check"></i> You have one day to try apps before metering starts.</li>
+          <li><i class="fad fa-check"></i> App vendors can offer discounts in the form of coupons for yearly (or longer) commitments, or promotions.</li>
+          <li><i class="fad fa-check"></i> App vendors are free to set their own price.</li>
+        </ul>
+      </div>
+    </section>
+    
 		<!-- Stop what do you get? -->
     {% include whats-next.html %}
 		<!-- End Section News -->	
