@@ -28,10 +28,17 @@
                 <a class="nav-link" id="navbarMenuLink-tech-spec" href="/getting-started">Getting Started</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link btn-sixsq text-center" style="margin-top: 2px; padding-left: 15px; padding-right: 15px; color: white !important; text-transform: uppercase;" href="https://nuvla.io/ui/sign-in"> Sign-in </a>
+                <a class="nav-link btn-sixsq text-center" style="margin-top: 2px; padding-left: 15px; padding-right: 15px;" href="https://nuvla.io/ui/sign-in"> Sign-in </a>
               </li>
               <li class="nav-item text-center">
-                <a class="btn-sixsq text-center" style="margin-top: 2px; text-transform: uppercase;" href="https://nuvla.io/ui/sign-up">Free trial</a>
+                <a class="btn-sixsq text-center" style="margin-top: 2px;" href="https://nuvla.io/ui/sign-up">Free trial</a>
+              </li>
+              <li class="nav-item text-center">
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <a class="btn-sixsq text-center" href="" id="navbarDropdownMenuLink-demo" aria-haspopup="true" aria-expanded="false" onclick="Calendly.initPopupWidget({url: '{{ site.calendly-demo-url }}'});return false;">Free Demo</a>
+                <!-- Calendly link widget end -->
               </li>
             </ul>
           </div>

@@ -10,4 +10,4 @@ redirect_from:
  - /legal/
 ---
 
-<h4 class="mt-50 ml-50 mr-50">We have made every efforts to make these documents as readable, clear and balanced as possible. Don't hesitate to get in touch if you have any questions, comments or suggestions to improve these.</h4>
+<h4 class="pt-40 ml-50 mr-50">We have made every efforts to make these documents as readable, clear and balanced as possible. Don't hesitate to get in touch if you have any questions, comments or suggestions to improve these.</h4>

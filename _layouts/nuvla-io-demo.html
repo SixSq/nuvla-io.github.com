@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="sixsq bg-grey-f9">
+    {% include standard-header.html %}
+	<main>
+    {% include {{ page.product }}-banner.html %}
+
+		<section class="section-intro-product section-is-it-for bg-grey-f9">
+			<div class="container">
+        {{ page.content | markdownify }}
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="{{ site.calendly-demo-url }}" style="min-width:320px;height:630px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+			</div>
+		</section>
+    {% include newsletter.html %}
+    {% include whats-next.html %}
+    {% include primary-footer.html %}
+    </main>
+    {% include secondary-footer.html %}
+  </body>
+</html>
