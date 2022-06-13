@@ -7,7 +7,7 @@ class: marketplace
 product-name: Nuvla.io
 title: Enable your edge with our management platform as a service
 header: Marketplace
-subheader: Buy, sell and managed your edge applications with the Nuvla.io Marketplace
+subheader: Buy, sell and manage your edge applications with the Nuvla.io Marketplace
 summary:  Deploy AI and any app at the edge and in the cloud, at scale.
 image: /img/page-product/products/vendor-journey.png
 banner-icon: fad fa-store
